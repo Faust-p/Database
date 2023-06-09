@@ -9,6 +9,6 @@ namespace Lab6.Context
         public int DriverId { get; set; }
         public DateTime Date { get; set; }
         public decimal Points { get; set; }
-        public virtual Driver Driver { get; set; }
+        public virtual Driver Driver { get; set; } = null!;
     }
 }
